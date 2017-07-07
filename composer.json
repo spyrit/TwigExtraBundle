@@ -1,15 +1,19 @@
 {
-    "name": "csanquer/twig-extra-bundle",
+    "name": "spyrit/twig-extra-bundle",
     "minimum-stability": "dev",
     "description": "Twig Extra Extensions Bundle",
     "keywords": [ "assets", "twig", "embed", "bottom", "javascript" ],
-    "homepage": "https://github.com/csanquer/TwigExtraBundle",
+    "homepage": "https://github.com/spyrit/TwigExtraBundle",
     "type": "symfony-bundle",
     "license": "LGPL-3.0+",
     "authors": [
         {
             "name": "Charles Sanquer",
             "email": "charles.sanquer@gmail.com"
+        },
+        {
+            "name": "Charles Henzel",
+            "email": "charles.henzel@spyrit.net"
         }
     ],
     "require": {
@@ -21,6 +25,6 @@
         "phpunit/phpunit": "~3.7"
     },
     "autoload": {
-        "psr-4": { "Csanquer\\Bundle\\TwigExtraBundle\\": "" }
+        "psr-4": { "Spyrit\\Bundle\\TwigExtraBundle\\": "" }
     }
 }
